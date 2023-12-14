@@ -753,8 +753,9 @@ p {
 .input-field:focus{
     border-color: #4D5AE5;
 }
-.input-field:focus + input-icon{
-    fill: #4D5AE5;
+
+.input-field:focus + .input-icon:focus{
+    border-color: #4D5AE5;
 }
 .checkbox-field:checked + .checkbox-span{
     border: none;
