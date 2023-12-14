@@ -738,7 +738,7 @@ p {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
-.input-field:hover{
+.input-field:focus{
     border-color: #4D5AE5;
 }
 .input-icon {
@@ -748,6 +748,9 @@ p {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2e2f42;
+}
+.input-icon:focus{
+    fill: #4D5AE5;
 }
 .comment-container {
     margin-bottom: 16px;
@@ -767,9 +770,9 @@ p {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-color: #4D5AE5;
     border: 1px solid rgba(46, 47, 66, 0.4) 
 }
+.comment-field:focus
 .checkbox-container {
     margin-bottom: 24px;
 }
@@ -780,13 +783,13 @@ p {
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
+    fill: transparent;
     fill: #F4F4FD;
     align-items: center;
     justify-content: center;
     margin-right: 8px;
     cursor: pointer;
     background-color: #404BBF
-
 }
 .checkbox-label {
     color: #8e8f99;
