@@ -893,7 +893,6 @@ p {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
-  min-height: 584px;
 }
 
 .close-modal-btn {
@@ -968,9 +967,7 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2e2f42;
 }
-.input-icon:focus{
-    fill: #4D5AE5;
-}
+
 .input-field:focus {
   outline: 0px transparent;
   border-color: #4d5ae5;
@@ -1036,6 +1033,7 @@ p {
   fill: transparent;
   margin-right: 8px;
   cursor: pointer;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .checkbox-span{
     border: none;
