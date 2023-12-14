@@ -750,6 +750,11 @@ p {
 .input-field:focus{
     fill: #4D5AE5;
 }
+.checkbox-field:checked + .checkbox-span{
+    border: none;
+    fill: #F4F4FD;
+}
+
 .comment-container {
     margin-bottom: 16px;
 }
