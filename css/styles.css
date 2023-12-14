@@ -749,7 +749,7 @@ p {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2e2f42;
 }
-.input-icon:focus{
+.input-field:focus + .input-icon{
     fill: #4D5AE5;
 }
 .comment-container {
