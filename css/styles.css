@@ -1036,7 +1036,7 @@ p {
   margin-right: 8px;
   cursor: pointer;
 }
-.checkbox-span:checked{
+.checkbox-span{
     border: none;
 }
 .checkbox-field:checked + .checkbox-label > .checkbox-span {
