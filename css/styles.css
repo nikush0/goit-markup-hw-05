@@ -754,13 +754,7 @@ p {
     border-color: #4D5AE5;
 }
 
-.input-field:focus + .input-icon:focus{
-    border-color: #4D5AE5;
-}
-.checkbox-field:checked + .checkbox-span{
-    border: none;
-    fill: #F4F4FD;
-}
+
 
 .comment-container {
     margin-bottom: 16px;
@@ -786,6 +780,10 @@ p {
 }
 .checkbox-container {
     margin-bottom: 24px;
+}
+.checkbox-field:checked + .checkbox-span{
+    border: none;
+    fill: #F4F4FD;
 }
 .checkbox-span {
     width: 16px;
