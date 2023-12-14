@@ -768,9 +768,10 @@ p {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid rgba(46, 47, 66, 0.4) 
 }
-.comment-field:focus
+.comment-field:focus{
+    border-color: #4D5AE5;
+}
 .checkbox-container {
     margin-bottom: 24px;
 }
@@ -779,14 +780,15 @@ p {
     height: 16px;
     border: none;
     border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
-    fill: transparent;
     fill: #F4F4FD;
     align-items: center;
     justify-content: center;
     margin-right: 8px;
     cursor: pointer;
+    fill: transparent;
     background-color: #404BBF
 }
 .checkbox-label {
