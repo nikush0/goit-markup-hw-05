@@ -796,7 +796,7 @@ p {
     fill: transparent;
     background-color: #404BBF
 }
-.checkbox-field:checked + .checkbox-label > .checkbox-span{
+.checkbox-field:checked + .checkbox-span{
     border: none;
 }
 .checkbox-field:checked + .checkbox-label > .checkbox-span {
