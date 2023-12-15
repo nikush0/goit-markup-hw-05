@@ -797,10 +797,6 @@ p {
     background-color: #404BBF
 }
 
-
-  .checkbox-field:focus + .checkbox-label > .checkbox-span {
-    border: 1px solid #404bbf;
-}
 .checkbox-label {
     color: #8e8f99;
     font-family: Roboto, sans-serif;
