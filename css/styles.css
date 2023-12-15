@@ -794,7 +794,7 @@ p {
     margin-right: 8px;
     cursor: pointer;
     fill: transparent;
-    background-color: #404bbf;
+    background-color: #404BBF
 }
 
 .checkbox-field:checked + .checkbox-label > .checkbox-span {
@@ -862,3 +862,8 @@ p {
       color: #404bbf;
     }
   }
+  .checkbox-field:checked + .checkbox-label > .checkbox-span {
+    background-color: #404bbf;
+    fill: #f4f4fd;
+    border: none;
+}
