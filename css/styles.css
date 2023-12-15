@@ -794,6 +794,7 @@ p {
     margin-right: 8px;
     cursor: pointer;
     fill: transparent;
+    background-color: #404bbf;
 }
 
 .checkbox-field:checked + .checkbox-label > .checkbox-span {
