@@ -117,7 +117,6 @@ p{
     letter-spacing: 0.02em;
     max-width: 496px;
     text-align: center;
-    margin: 0 auto;
 }
 .team-list{
 
@@ -586,9 +585,7 @@ p {
     color: #fff;
     margin-bottom: 16px;
 }
-.subscribe-title {
-    text-align: center;
-}
+
 @media screen and (min-width: 768px){
 .footer-form {
     flex-direction: row;
@@ -597,7 +594,6 @@ p {
 }
 .footer-form {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 16px;
     gap: 24px;
@@ -635,6 +631,9 @@ p {
     color: #ffffff;
     line-height: 2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.subscribe{
+    margin-left: 80px;
 }
 /*Window*/
 .backdrop {
@@ -703,6 +702,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    margin-top: auto;
 }
 .form-container {
     margin-bottom: 8px;
